@@ -1,0 +1,31 @@
+body {
+    background-color: #fbb02d;
+    font-family: 'Dancing Script', cursive;
+}
+header {
+    color: #fb6107;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    color: #5c8001;
+    font-size: 30px;
+}
+p {
+    text-align: center;
+    color: #5c8001;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.dir {
+    color: #5c8001;
+    text-align: center;
+}
+.ing {
+    color: #5c8001;
+    text-align: center;
+}
