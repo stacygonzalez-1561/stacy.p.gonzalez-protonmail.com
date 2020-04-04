@@ -1,0 +1,43 @@
+body {
+    background-image: url("./brownie\ background.jpg");
+    repeat: no-repeat;
+    object-fit: contain;
+    font-family: 'Amatic SC', cursive;
+    color: burlywood;
+    font-size: 45px;
+    text-shadow: brown 2px 2px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr .5fr 1fr;
+    grid-template-areas: "header header header" "main main main" ". img .";
+}
+h1 {
+    display: grid;
+    grid-area: header;
+    text-align: center;
+}
+.ing {
+    display: grid;
+    grid-area: main;
+    text-align: center;
+
+}
+.dir {
+    display: grid;
+    grid-area: main;
+    margin-top: 300px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+    grid-area: img;
+    margin-left: 550px;
+    margin-right: auto;
+    width: 50%;
+    
+}
