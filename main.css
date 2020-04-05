@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "nutella million dp ." ". . . ." ". . . .";
+}
+.nutella {
+    grid-area: nutella;
+    background-color: #38d1bc;
+    padding: 30%;
+}
+.mpie {
+    grid-area: million;
+    background-color: #ed452f;
+    padding: 30%;
+}
+.dpb {
+    grid-area: dp;
+    background-color: #edd74e;
+    padding: 30%;
+}
