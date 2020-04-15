@@ -1,22 +1,23 @@
 body {
-    background-color: #fbb02d;
+    background-image: url("./millon\ background.jpg");
+    object-fit: contain;
     font-family: 'Dancing Script', cursive;
 }
 header {
     color: #fb6107;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin-top: 20px;
 }
 ul {
     list-style: none;
     text-align: center;
-    color: #5c8001;
+    color: #fb6107;
     font-size: 30px;
 }
 p {
     text-align: center;
-    color: #5c8001;
+    color: #fb6107;
     margin-right: 40px;
     margin-left: 40px;
     font-size: 30px;
@@ -28,4 +29,7 @@ p {
 .ing {
     color: #5c8001;
     text-align: center;
+}
+h1 {
+    font-size: 40px;
 }
