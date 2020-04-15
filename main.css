@@ -3,6 +3,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "nutella million dp ." ". . . ." ". . . .";
+    font-family: 'Special Elite', cursive;
 }
 .nutella {
     grid-area: nutella;
@@ -16,6 +17,21 @@ body {
 }
 .dpb {
     grid-area: dp;
-    background-color: #edd74e;
+    background-color: #abd2fa;
     padding: 30%;
+}
+a:link {
+    text-decoration: none;
+}
+.mpie > a {
+    color: white;
+    font-size: 20px;
+}
+.dpb > a {
+    color: white;
+    font-size: 20px;
+}
+.nutella > a {
+    color: white;
+    font-size: 20px;
 }
