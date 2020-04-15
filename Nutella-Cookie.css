@@ -1,5 +1,5 @@
 body {
-    background-color: #fffccf;
+    background-image: url("./nutella\ background.jpg");
     Color: #6b2504;
     font-family: 'Spicy Rice', cursive;
     letter-spacing: 2px;
@@ -7,4 +7,48 @@ body {
 }
 ul {
    list-style: none;
+}
+.header {
+    font-size: 64px;
+    text-shadow: 4px 4px #aa714d;
+}
+.brownie > h3 {
+    font-size: 40px;
+    text-shadow: 3px 3px #aa714d;
+
+}
+.brownie > ul {
+    font-size: 30px;
+    text-shadow: 2px 2px #aa714d;
+}
+.bdir > h3 {
+    font-size: 40px;
+    text-shadow: 3px 3px #aa714d;
+}
+.bdir > p {
+    font-size: 30px;
+    text-shadow: 2px 2px #aa714d;
+}
+.cookie > h3 {
+    font-size: 40px;
+    color: #aa714d;
+    text-shadow: 3px 3px #6b2504;
+}
+.cing > ul {
+    font-size: 30px;
+    color: #aa714d;
+    text-shadow: 2px 2px #6b2504;
+}
+.cdir > p {
+    font-size: 30px;
+    color: #aa714d;
+    text-shadow: 2px 2px #6b2504;
+}
+.bd > h3 {
+    font-size: 40px;
+    text-shadow: 3px 3px #aa714d;
+}
+.bd > p {
+    font-size: 30px;
+    text-shadow: 2px 2px #aa714d;
 }
