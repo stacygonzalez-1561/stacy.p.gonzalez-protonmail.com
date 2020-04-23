@@ -22,7 +22,7 @@ body {
 }
 .custdough {
     grid-area: cust;
-    background-color: #abd2fa;
+    background-color: #edd74e;
     padding: 30%;
 }
 a:link {
@@ -37,6 +37,10 @@ a:link {
     font-size: 20px;
 }
 .nutella > a {
+    color: white;
+    font-size: 20px;
+}
+.custdough > a {
     color: white;
     font-size: 20px;
 }
