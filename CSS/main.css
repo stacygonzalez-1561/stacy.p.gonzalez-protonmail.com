@@ -2,7 +2,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "nutella million dp ." ". . . ." ". . . .";
+    grid-template-areas: "nutella million dp cust" ". . . ." ". . . .";
     font-family: 'Special Elite', cursive;
 }
 .nutella {
@@ -17,6 +17,11 @@ body {
 }
 .dpb {
     grid-area: dp;
+    background-color: #abd2fa;
+    padding: 30%;
+}
+.custdough {
+    grid-area: cust;
     background-color: #abd2fa;
     padding: 30%;
 }
