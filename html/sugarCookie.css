@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #d80702;
+    color: #003b00;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
