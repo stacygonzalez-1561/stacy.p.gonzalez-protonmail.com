@@ -2,7 +2,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "nutella million dp cust" ". . . ." ". . . .";
+    grid-template-areas: "nutella million dp cust" "sugar . . ." ". . . .";
     font-family: 'Special Elite', cursive;
 }
 .nutella {
@@ -25,6 +25,11 @@ body {
     background-color: #edd74e;
     padding: 30%;
 }
+.sugarCookie {
+    grid-area: sugar;
+    background-color: #edd74e;
+    padding: 30%;
+}
 a:link {
     text-decoration: none;
 }
@@ -41,6 +46,10 @@ a:link {
     font-size: 20px;
 }
 .custdough > a {
+    color: white;
+    font-size: 20px;
+}
+.sugarCookie > a {
     color: white;
     font-size: 20px;
 }
