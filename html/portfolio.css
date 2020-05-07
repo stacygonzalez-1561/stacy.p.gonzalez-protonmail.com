@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1.5fr;
+    grid-template-areas: ". .  about" "info info info" "cust nc mill " "video video video ";
+
+}
+body {
+    background-color: #2c4132;
+}
+.banner {
+    grid-area: about;}
+.about {
+    grid-area: info;
+    background-image: url("../html/portfolio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d7bedb;
+    text-align: center;
+    text-shadow: 3px 3px black;
+    font-size: 35px;
+}
+.cust {
+    grid-area: cust;
+    background-color: #5ecdf0;
+}
+.NC {
+    grid-area: nc;
+    background-color: #94d100;;
+}
+.mill {
+    grid-area: mill;
+    background-color: #d7bedb;
+
+}
+.video {
+    grid-area: video;
+}
+#a {
+    padding: 50px;
+    color: #94d100;
+    font-size: 25px;
+}
+#c {
+    color: #5ecdf0;
+    font-size: 25px;
+}
