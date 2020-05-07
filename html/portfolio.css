@@ -1,12 +1,13 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1.5fr;
+    grid-template-rows: 0.2fr 1fr .5fr 1.5fr;
     grid-template-areas: ". .  about" "info info info" "cust nc mill " "video video video ";
 
 }
 body {
     background-color: #2c4132;
+    font-family: 'Modak', cursive;
 }
 .banner {
     grid-area: about;}
@@ -23,15 +24,44 @@ body {
 .cust {
     grid-area: cust;
     background-color: #5ecdf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.cust > a {
+    text-decoration: none;
+    color: black
+    
+
 }
 .NC {
     grid-area: nc;
-    background-color: #94d100;;
+    background-color: #94d100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.NC > a {
+    text-decoration: none;
+    color: black;
 }
 .mill {
     grid-area: mill;
     background-color: #d7bedb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    
 
+}
+.mill > a {
+    text-decoration: none;
+    color: black;
 }
 .video {
     grid-area: video;
